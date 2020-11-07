@@ -41,7 +41,7 @@ for i in "${FILES_640[@]}"
 do
 	if [ -f "/certs/$i" ]; then
 	    cp /certs/$i /etc/freeradius/3.0/certs/$i
-	    chmod 640 /etc/raddb/certs/$i
+	    chmod 640 /etc/freeradius/3.0/certs/$i
 	fi
 done
 
